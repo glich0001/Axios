@@ -20,16 +20,48 @@ Para abrir la carpeta de proyecto
 integracion de axios en el proyecto
 Conexión a una API Externa:
 
-![Agregar](https://github.com/glich0001/api-axios/blob/main/public/axios.png)
+![Agregar]
+// Obtain User by ID
+export const getUserByID = (id) => {
+    return axios.get(`https://reqres.in/api/users/${id}`);
+} 
+
+// Create User
+export const createUser = (name, job) => {
+    let body = {
+        name: name,
+        job: job
+    }
+
+    // Returns the response with a Promise
+    return axios.post('https://reqres.in/api/users', body)
+}
+
+// Update User
+export const updateUserByID = (id, name, job) => {
+    let body = {
+        name: name,
+        job: job
+    }
+
+    // Returns the response with a Promise
+    return axios.put(`https://reqres.in/api/users/${id}`, body)
+}
+
+// Delete User
+export const deleteUserByID = (id) => {
+    return axios.delete(`https://reqres.in/api/users/${id}`);
+} 
+
 
 Visualización de Datos:
 
-![Agregar](https://github.com/glich0001/api-axios/blob/main/public/list.png)
+
 
 Gestión de Errores y Excepciones:
 
-![Agregar](https://github.com/glich0001/api-axios/blob/main/public/manejo%20de%20errores.png)
-
+ //En caso de un error genera una ventana emergente de alerta 
+ 
 Integrar Axios en tu proyecto es un proceso sencillo. Aquí te dejo los pasos a seguir:
 
 1. **Instalación**: Primero, necesitas instalar Axios en tu proyecto. Puedes hacerlo utilizando npm o yarn. Aquí te dejo los comandos para ambos:
