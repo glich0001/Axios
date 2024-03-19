@@ -20,15 +20,15 @@ Para abrir la carpeta de proyecto
 integracion de axios en el proyecto
 Conexión a una API Externa:
 
-![Agregar](https://github.com/snipgamer1/api-axios/blob/main/public/axios.png)
+![Agregar](https://github.com/glich0001/api-axios/blob/main/public/axios.png)
 
 Visualización de Datos:
 
-![Agregar](https://github.com/snipgamer1/api-axios/blob/main/public/list.png)
+![Agregar](https://github.com/glich0001/api-axios/blob/main/public/list.png)
 
 Gestión de Errores y Excepciones:
 
-![Agregar](https://github.com/snipgamer1/api-axios/blob/main/public/manejo%20de%20errores.png)
+![Agregar](https://github.com/glich0001/api-axios/blob/main/public/manejo%20de%20errores.png)
 
 Integrar Axios en tu proyecto es un proceso sencillo. Aquí te dejo los pasos a seguir:
 
